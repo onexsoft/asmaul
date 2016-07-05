@@ -1,7 +1,6 @@
 # asmaul
-Read out files directly from Oracle ASM Disks or Image files.
 
-A command line utility to interactive with Oracle ASM storage
+A command line utility to interactive with Oracle ASM storage, code extracted from AUL utility (a utility for Oracle data recovery to read rows from damaged Oracle database files directly, visit http://www.mydul.net for more details).
 
 ASM> help;
 
