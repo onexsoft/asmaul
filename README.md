@@ -28,5 +28,8 @@ ASM> help;
   
   QUIT/EXIT  -- exit the program.
   
+#build & compile
+gcc -O2 -o aulasm.bin aulasm2.c asmkernel.c
 
+#contact
 For any questions, please submit a issue.
