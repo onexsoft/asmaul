@@ -5,6 +5,9 @@ A command line utility to interactive with Oracle ASM storage, code extracted fr
 - Examples: http://www.mydul.net/asmexample.html
 - Commands: http://www.mydul.net/aulasmcmd.html
 
+# To do
+A full disk scan logic should be added for damaged Oracle ASM group to reconstruct the Oracle data files.
+
 # build & compile
 gcc -O2 -DSIMPLE_FPOS_T -o aulasm.bin aulasm2.c asmkernel.c
 
