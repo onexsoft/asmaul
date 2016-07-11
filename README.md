@@ -9,7 +9,14 @@ A command line utility to interactive with Oracle ASM storage, code extracted fr
 A full disk scan logic should be added for damaged Oracle ASM group to reconstruct the Oracle data files.
 
 # build & compile
-gcc -O2 -DSIMPLE_FPOS_T -o aulasm.bin aulasm2.c asmkernel.c
+Simply run:
+  make
+
+or
+  gcc -O2 -DSIMPLE_FPOS_T -o aulasm.bin aulasm2.c asmkernel.c
+
+If it shows up some errors about like 'incompatible types in assignment', try this:
+  gcc -O2 -o aulasm.bin aulasm2.c asmkernel.c
 
 # contact
 For any questions, please submit a issue.
